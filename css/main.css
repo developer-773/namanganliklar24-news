@@ -72,17 +72,24 @@ img{
 }
 
 .search-box{
+  display: flex;
+  align-items: center;
   width: 275px;
   margin-right: 25px;
   padding-top: 15px;
   padding-bottom: 13px;
-  padding-left: 41px;
+  padding-left: 26px;
   border-radius: 60px;
   background-color: #fff;
   color: #8D8D8D;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
+}
+
+.search-box::before{
+  content: url("../images/search.png");
+  
 }
 
 .site-languages{
@@ -190,7 +197,7 @@ img{
 
 .news-column{
   
-  width: 346px;
+  width: 342px;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -204,21 +211,64 @@ img{
 }
 
 .news-column-h3{
+  display: flex;
+  margin-top: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #4A4B4C;
-  
 }
 
-.source{
-  display: flex;
-  align-items: center;
-} 
+.red::before{
+width: 35px;
+  content: url("../images/germany-link.jpg"); */
 
-.icon{
-  margin-right: 10px;
 }
+
+.gazete::before{
+  width: 35px;
+  content: url("../images/bugdoy-link.png");
+}
+
+.xaytek::before{
+  width: 35px;
+  content: url("../images/taxi-link.png");
+}
+
+.iphone::before{
+  width: 35px;
+  content: url("../images/iphone-link.png");
+}
+
+.corona::before{
+  width: 35px;
+  content: url("../images/corona-link.png");
+}
+
+.car-jac::before{
+  width: 35px;
+  content: url("../images/car-jac-link.png");
+}
+
+.plane::before{
+  width: 20px;
+  content: url("../images/plane-link.jpg");
+}
+
+.korea::before{
+  width: 20px;
+  content: url("../images/street-korea-link.png");
+}
+
+.china::before{
+  width: 25px;
+  content: url("../images/china-link.png");
+}
+
+time{
+  margin-left: 10px;
+}
+
 
 .notification{
   margin-bottom: 108px;
@@ -262,20 +312,19 @@ img{
   color: #F78B3B;
 }
 
-.asd{
+.sidebar{
   display: flex;
   justify-content: space-between;
 }
 
 .v-mire{
+
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
   
 }
-
-
 
 .second-news-lists{
   margin: 0;  
@@ -286,10 +335,8 @@ img{
   
 }
 
-
-
 .v-mir{
-  
+  margin-top: 10px;
   width: 96px;
   font-weight: 500;
   font-size: 24px;
@@ -319,7 +366,6 @@ img{
   
 }
 
-
 .news-title{
   width: 535px;
   font-weight: 500;
@@ -347,12 +393,6 @@ img{
   margin-right: 10px;
 }
 
-.source-txt{
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-  color: #5E5F61;
-}
 
 .side-class{
   display: flex;
@@ -406,7 +446,6 @@ img{
 }
 
 .footer{
-  width: 1226px;
   background: #7297EF;
 }
 
