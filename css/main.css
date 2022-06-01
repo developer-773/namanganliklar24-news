@@ -6,6 +6,24 @@ body{
   margin: 0;
   font-family: "Rubik", sans-serif;
 }
+
+/* rubik-regular - latin */
+@font-face {
+  font-family: "Rubik";
+  font-weight: 400;
+  src: local(""),
+       url("../fonts/rubik-v20-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/rubik-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* rubik-500 - latin */
+@font-face {
+  font-family: "Rubik";
+  font-weight: 500;
+  src: local(""),
+       url("../fonts/rubik-v20-latin-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/rubik-v20-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 img{
   vertical-align: middle;
 }
@@ -88,7 +106,11 @@ img{
 }
 
 .search-box::before{
-  content: url("../images/search.png");
+    content: "";
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
   
 }
 
@@ -171,8 +193,9 @@ img{
 }
 
 .news-columns-lists{
-  margin-bottom: 60px;
+
   padding: 0;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -220,49 +243,86 @@ img{
 }
 
 .red::before{
-width: 35px;
-  content: url("../images/germany-link.jpg"); 
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/germany-link.jpg);
+  background-repeat: no-repeat;
+
 
 }
 
 .gazete::before{
-  width: 35px;
-  content: url("../images/bugdoy-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/bugdoy-link.png);
+  background-repeat: no-repeat;
 }
 
 .xaytek::before{
-  width: 35px;
-  content: url("../images/taxi-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/taxi-link.png);
+  background-repeat: no-repeat;
 }
 
 .iphone::before{
-  width: 35px;
-  content: url("../images/iphone-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/iphone-link.png);
+  background-repeat: no-repeat;
 }
 
 .corona::before{
-  width: 35px;
-  content: url("../images/corona-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/corona-link.png);
+  background-repeat: no-repeat;
 }
 
 .car-jac::before{
-  width: 35px;
-  content: url("../images/car-jac-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/car-jac-link.png);
+  background-repeat: no-repeat;
 }
 
 .plane::before{
-  width: 20px;
-  content: url("../images/plane-link.jpg");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/plane-link.jpg);
+  background-repeat: no-repeat;
 }
 
 .korea::before{
-  width: 20px;
-  content: url("../images/street-korea-link.png");
+  margin-right: 10px;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url(../images/street-korea-link.png);
+  background-repeat: no-repeat;
 }
 
 .china::before{
+  margin-right: 10px;
+  content: "";
   width: 25px;
-  content: url("../images/china-link.png");
+  height: 25px;
+  background-image: url(../images/china-link.png);
+  background-repeat: no-repeat;
 }
 
 time{
@@ -283,7 +343,6 @@ time{
 }
 
 .notification-txt{
-  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   width: 404px;
   font-size: 20px;
@@ -456,7 +515,7 @@ time{
 }
 
 .footer-box-start{
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .bottom-logo{
@@ -477,8 +536,9 @@ time{
 }
 
 .box-list{
-  margin-top:83px;
-  margin-bottom: 30px;
+  margin: 0;
+  padding-top:83px;
+  padding-bottom: 30px;
 list-style: none;
   
 }
