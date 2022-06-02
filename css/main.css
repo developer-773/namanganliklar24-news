@@ -106,26 +106,21 @@ img{
 .search-box{
   display: flex;
   align-items: center;
-  width: 275px;
   margin-right: 25px;
-  padding-top: 15px;
-  padding-bottom: 13px;
-  padding-left: 26px;
-  border-radius: 60px;
-  background-color: #fff;
-  color: #8D8D8D;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-}
+} 
 
-.search-box::before{
-    content: "";
-    width: 25px;
-    height: 25px;
-    background-image: url(../images/search.png);
-    background-repeat: no-repeat;
-  
+.search-input{
+  padding: 15px 13px;
+  width: 275px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  outline: none;
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 60px;
+  opacity: 0.5;
 }
 
 .site-languages{
@@ -524,7 +519,7 @@ time{
 
 .footer-content{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   
 }
 
@@ -563,7 +558,6 @@ list-style: none;
 
 .borderr{
   margin-bottom: 20px;
-  width: 957px;
   border-bottom: 1px solid #CECECE;
 }
 
@@ -576,7 +570,6 @@ list-style: none;
 .contact-us-txt{
   margin: 0;
   padding: 0;
-  margin-left: 117px;
   margin-bottom: 40px;
   width: 161px;
   font-weight: 500;
@@ -586,7 +579,6 @@ list-style: none;
 }
 
 .contacts-list{
-  margin-right: 70px;
   display: flex;
   justify-content:space-between;
   list-style: none;
@@ -604,3 +596,5 @@ a{
   list-style: none;
   text-decoration: none;
 }
+
+
