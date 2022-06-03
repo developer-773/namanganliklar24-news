@@ -87,12 +87,14 @@ textarea{
 .location-list{
     margin: 0;
     margin-left: 10px;
-    margin-bottom: 135px;
-    padding: 30px 25px 20px 25px;
+    margin-bottom: 148px;
+    padding: 37px 25px 43px 25px;
     width: 494px;
     background: #F6F6F6;
     border-radius: 10px;
     list-style: none;
+    margin-bottom: 148px;
+    /* padding: 37px 25px 43px 25px; */
 }
 
 .location-item{
